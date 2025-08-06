@@ -1,0 +1,154 @@
+/* 🌐 Fonts and Reset */
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #dfe9f3, #ffffff);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#task-app {
+  background: #ffffff;
+  width: 100%;
+  max-width: 550px;
+  margin-top: 60px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* 📝 Header */
+h2 {
+  text-align: center;
+  color: #2e2e2e;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+/* 🔍 Input Section */
+.input-group {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+input[type="text"],
+#search-box {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  outline: none;
+  transition: all 0.3s ease;
+  background-color: #f9fafb;
+}
+
+input[type="text"]:focus,
+#search-box:focus {
+  border-color: #3b82f6;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+/* ➕ Primary Button */
+.primary-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.25);
+}
+
+
+
+
+/* 🔓 Logout Button */
+.logout-btn {
+  width: 100%;
+  margin-top: 25px;
+  background-color: #ef4444;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+
+/* ✅ Task List */
+#list-container {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#list-container li {
+  background-color: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease;
+}
+
+
+
+/* ✏️ Edit & 🗑️ Delete Buttons */
+.editBtn,
+.deleteBtn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.editBtn {
+  background-color: #fff3cd;
+  color: #8a6d3b;
+  border: 1px solid #ffeeba;
+}
+
+
+
+.deleteBtn {
+  background-color: #fde2e2;
+  color: #b91c1c;
+  border: 1px solid #f8d7da;
+}
+
+
+
+/* 🔍 Search Box */
+#search-box {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+}

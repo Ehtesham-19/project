@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(158, 182, 182);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.signup {
+  width: 100%;
+  max-width: 400px;
+  background: #6a0dad; /* deep purple */
+  border-radius: 12px;
+  padding: 40px 30px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.signup h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.signup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.signup input[type="text"],
+.signup input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.signup input::placeholder {
+  color: #999;
+}
+
+.signup button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffffff;
+  color: #6a0dad;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup button:hover {
+  background-color: #eee;
+}
